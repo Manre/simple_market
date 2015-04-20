@@ -1,0 +1,8 @@
+New log file opened at Sun Apr 19 18:05:19 COT 2015 by 45455@Manre-Macbook-Pro.local
+Sending msg to client activator-781d6837-ae33-4344-9598-58efff91d69d: DetachedLogEvent(LogMessage(debug,sbt client logs are in: /Users/Manre/Documents/workspace2/activator/simple_market/.sbtserver/connections/activator-781d6837-ae33-4344-9598-58efff91d69d.log))
+Reading next message from client.
+Sending msg to client activator-781d6837-ae33-4344-9598-58efff91d69d: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: /Users/Manre/Documents/workspace2/activator/simple_market/.sbtserver/connections/master.log))
+Sending msg to client activator-781d6837-ae33-4344-9598-58efff91d69d: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: /Users/Manre/Documents/workspace2/activator/simple_market/.sbtserver/master.log))
+Got request: ListenToEvents()
+Reading next message from client.
+Sending msg to client activator-781d6837-ae33-4344-9598-58efff91d69d: (3,ReceivedResponse())

@@ -1,0 +1,25 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.UserWeb.renderUserList()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+# Users
+
+GET		/users						controllers.UsuarioController.getUsers
+GET		/users/:id					controllers.UsuarioController.getUser(id: Long)
+POST	/users						controllers.UsuarioController.createUser
+PUT		/users/:id					controllers.UsuarioController.updateUser(id: Long)
+DELETE	/users/:id					controllers.UsuarioController.deleteUser(id: Long)
+
+# Purchases
+
+GET		/purchases						controllers.CompraController.getPurchases
+GET		/purchases/:id					controllers.CompraController.getPurchase(id: Long)
+POST	/purchases						controllers.CompraController.createPurchase
+PUT		/purchases/:id					controllers.CompraController.updatePurchase(id: Long)
+DELETE	/purchases/:id					controllers.CompraController.deletePurchase(id: Long)

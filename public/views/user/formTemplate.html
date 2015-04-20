@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form class="form-horizontal"> 
+	<div class="form-group">
+		<label for="nombre" class="col-sm-2 control-label">Nombre</label> 
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="nombre" value="<%= nombre %>">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="correo" class="col-sm-2 control-label">Correo</label>
+		<div class="col-sm-10">
+			<input type="email" class="form-control" id="correo" value="<%= correo %>">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="password" class="col-sm-2 control-label">Password</label>
+		<div class="col-sm-10">
+			<input type="password" class="form-control" id="password" value="<%= password %>">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-offset-2 col-sm-10">
+			<button type="button" class="btn btn-default" aria- label="Left Align" id="save_user">Aceptar</button>
+			<button type="button" class="btn btn-default" aria-label="Rigth Align" id="back_user">Volver</button>
+		</div>
+	</div>
+</form>
+
+</body>
+</html>

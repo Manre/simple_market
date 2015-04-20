@@ -1,0 +1,14 @@
+New log file opened at Sun Apr 19 18:05:20 COT 2015 by 45455@Manre-Macbook-Pro.local
+Sending msg to client activator-b12901c4-6c3b-4247-8bae-119d915e4147: DetachedLogEvent(LogMessage(debug,sbt client logs are in: /Users/Manre/Documents/workspace2/activator/simple_market/.sbtserver/connections/activator-b12901c4-6c3b-4247-8bae-119d915e4147.log))
+Sending msg to client activator-b12901c4-6c3b-4247-8bae-119d915e4147: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: /Users/Manre/Documents/workspace2/activator/simple_market/.sbtserver/connections/master.log))
+Sending msg to client activator-b12901c4-6c3b-4247-8bae-119d915e4147: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: /Users/Manre/Documents/workspace2/activator/simple_market/.sbtserver/master.log))
+Reading next message from client.
+Got request: ListenToEvents()
+Reading next message from client.
+Sending msg to client activator-b12901c4-6c3b-4247-8bae-119d915e4147: DetachedLogEvent(LogMessage(debug,> --initialize))
+Sending msg to client activator-b12901c4-6c3b-4247-8bae-119d915e4147: DetachedLogEvent(LogMessage(debug,> initialize))
+Sending msg to client activator-b12901c4-6c3b-4247-8bae-119d915e4147: DetachedLogEvent(LogMessage(debug,> onFailure load-failed))
+Sending msg to client activator-b12901c4-6c3b-4247-8bae-119d915e4147: DetachedLogEvent(LogMessage(debug,> boot))
+Sending msg to client activator-b12901c4-6c3b-4247-8bae-119d915e4147: DetachedLogEvent(LogMessage(debug,> reload))
+Sending msg to client activator-b12901c4-6c3b-4247-8bae-119d915e4147: DetachedLogEvent(LogMessage(debug,[Loading] Scanning directory /Users/Manre/Documents/workspace2/activator/simple_market/project))
+Sending msg to client activator-b12901c4-6c3b-4247-8bae-119d915e4147: (3,ReceivedResponse())
